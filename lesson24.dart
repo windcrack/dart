@@ -13,5 +13,7 @@ class Bird extends Animal{
 }
 
 final class Owl extends Bird {
-  Owl({required this.age});
+  var age;
+
+  Owl({required this.age}) : super(age: 0.0);
 }
